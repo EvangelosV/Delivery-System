@@ -1,0 +1,29 @@
+{
+    "StoreName": "Pizza Hut",
+    "Latitude": 37.9232963,
+    "Longitude": 23.793413,
+    "FoodCategory": "pizza",
+    "Stars": 5,
+    "NoOfVotes": 180,
+    "StoreLogo": "data/images/PizzaHut-Logo.png",
+    "Products": [
+        {
+            "ProductName": "Pepperoni Pizza",
+            "ProductType": "pizza",
+            "Available Amount": 300,
+            "Price": 10.5
+        },
+        {
+            "ProductName": "Margherita Pizza",
+            "ProductType": "pizza",
+            "Available Amount": 250,
+            "Price": 9.0
+        },
+        {
+            "ProductName": "Garlic Bread",
+            "ProductType": "side",
+            "Available Amount": 150,
+            "Price": 3.5
+        }
+    ]
+}

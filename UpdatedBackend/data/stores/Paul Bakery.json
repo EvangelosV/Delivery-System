@@ -1,0 +1,29 @@
+{
+    "StoreName": "Paul Bakery",
+    "Latitude": 37.9732963,
+    "Longitude": 23.773413,
+    "FoodCategory": "bakery",
+    "Stars": 4,
+    "NoOfVotes": 110,
+    "StoreLogo": "data/images/PaulBakery-Logo.png",
+    "Products": [
+        {
+            "ProductName": "Baguette",
+            "ProductType": "bread",
+            "Available Amount": 70,
+            "Price": 2.5
+        },
+        {
+            "ProductName": "Pain au Chocolat",
+            "ProductType": "pastry",
+            "Available Amount": 60,
+            "Price": 2.2
+        },
+        {
+            "ProductName": "Eclair",
+            "ProductType": "pastry",
+            "Available Amount": 50,
+            "Price": 3.5
+        }
+    ]
+}

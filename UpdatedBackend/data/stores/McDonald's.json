@@ -1,0 +1,29 @@
+{
+    "StoreName": "McDonald's",
+    "Latitude": 37.9932963,
+    "Longitude": 23.713413,
+    "FoodCategory": "fast food",
+    "Stars": 3,
+    "NoOfVotes": 150,
+    "StoreLogo": "data/images/McDonald's-logo.png",
+    "Products": [
+        {
+            "ProductName": "Big Mac",
+            "ProductType": "burger",
+            "Available Amount": 198,
+            "Price": 5.0
+        },
+        {
+            "ProductName": "McNuggets",
+            "ProductType": "nuggets",
+            "Available Amount": 150,
+            "Price": 4.0
+        },
+        {
+            "ProductName": "Fries",
+            "ProductType": "side",
+            "Available Amount": 100,
+            "Price": 2.5
+        }
+    ]
+}

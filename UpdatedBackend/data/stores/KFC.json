@@ -1,0 +1,29 @@
+{
+    "StoreName": "KFC",
+    "Latitude": 37.9332963,
+    "Longitude": 23.783413,
+    "FoodCategory": "fast food",
+    "Stars": 4,
+    "NoOfVotes": 200,
+    "StoreLogo": "data/images/KFC-Logo.png",
+    "Products": [
+        {
+            "ProductName": "Original Recipe Chicken",
+            "ProductType": "chicken",
+            "Available Amount": 300,
+            "Price": 3.5
+        },
+        {
+            "ProductName": "Zinger Burger",
+            "ProductType": "burger",
+            "Available Amount": 97,
+            "Price": 4.0
+        },
+        {
+            "ProductName": "Corn on the Cob",
+            "ProductType": "side",
+            "Available Amount": 100,
+            "Price": 2.5
+        }
+    ]
+}

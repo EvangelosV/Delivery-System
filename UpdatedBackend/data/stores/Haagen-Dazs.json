@@ -1,0 +1,29 @@
+{
+    "StoreName": "Haagen-Dazs",
+    "Latitude": 37.9632963,
+    "Longitude": 23.783413,
+    "FoodCategory": "ice cream",
+    "Stars": 5,
+    "NoOfVotes": 140,
+    "StoreLogo": "data/images/HaagenDazs-Logo.png",
+    "Products": [
+        {
+            "ProductName": "Belgian Chocolate",
+            "ProductType": "ice cream",
+            "Available Amount": 80,
+            "Price": 5.2
+        },
+        {
+            "ProductName": "Strawberry Cheesecake",
+            "ProductType": "ice cream",
+            "Available Amount": 75,
+            "Price": 5.5
+        },
+        {
+            "ProductName": "Caramel Cone",
+            "ProductType": "sundae",
+            "Available Amount": 60,
+            "Price": 6.0
+        }
+    ]
+}

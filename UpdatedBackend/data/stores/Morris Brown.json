@@ -1,0 +1,29 @@
+{
+    "StoreName": "Morris Brown",
+    "Latitude": 37.9532963,
+    "Longitude": 23.763413,
+    "FoodCategory": "ice cream",
+    "Stars": 4,
+    "NoOfVotes": 120,
+    "StoreLogo": "data/images/MorrisBrown-Logo.png",
+    "Products": [
+        {
+            "ProductName": "Vanilla Ice Cream",
+            "ProductType": "ice cream",
+            "Available Amount": 100,
+            "Price": 3.0
+        },
+        {
+            "ProductName": "Chocolate Fudge Sundae",
+            "ProductType": "dessert",
+            "Available Amount": 80,
+            "Price": 4.5
+        },
+        {
+            "ProductName": "Mango Sorbet",
+            "ProductType": "sorbet",
+            "Available Amount": 60,
+            "Price": 3.5
+        }
+    ]
+}

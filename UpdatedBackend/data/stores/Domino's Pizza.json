@@ -1,0 +1,29 @@
+{
+    "StoreName": "Domino's Pizza",
+    "Latitude": 37.9832963,
+    "Longitude": 23.723413,
+    "FoodCategory": "pizza",
+    "Stars": 4,
+    "NoOfVotes": 200,
+    "StoreLogo": "data/images/Domino'sPizza-Logo.png",
+    "Products": [
+        {
+            "ProductName": "Pepperoni Pizza",
+            "ProductType": "pizza",
+            "Available Amount": 300,
+            "Price": 10.5
+        },
+        {
+            "ProductName": "Margherita Pizza",
+            "ProductType": "pizza",
+            "Available Amount": 250,
+            "Price": 9.0
+        },
+        {
+            "ProductName": "Garlic Bread",
+            "ProductType": "side",
+            "Available Amount": 150,
+            "Price": 3.5
+        }
+    ]
+}

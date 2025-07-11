@@ -1,0 +1,29 @@
+{
+    "StoreName": "Thanasis",
+    "Latitude": 37.9832963,
+    "Longitude": 23.733413,
+    "FoodCategory": "souvlaki",
+    "Stars": 5,
+    "NoOfVotes": 220,
+    "StoreLogo": "data/images/Thanasis-Logo.png",
+    "Products": [
+        {
+            "ProductName": "Mixed Grill Platter",
+            "ProductType": "grill",
+            "Available Amount": 180,
+            "Price": 12.0
+        },
+        {
+            "ProductName": "Beef Souvlaki",
+            "ProductType": "souvlaki",
+            "Available Amount": 200,
+            "Price": 2.8
+        },
+        {
+            "ProductName": "Greek Salad",
+            "ProductType": "salad",
+            "Available Amount": 120,
+            "Price": 5.5
+        }
+    ]
+}
