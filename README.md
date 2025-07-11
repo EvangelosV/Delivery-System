@@ -105,14 +105,6 @@ All inter-node communication (Master ↔ Workers, Master ↔ Clients) is done ov
 
 ---
 
-## 🏗 Future Improvements
-
-* Implement active replication of store data across Workers for fault tolerance (as an extension suggested in the assignment).
-* Extend Android UI to support more advanced user flows and real-time order tracking.
-* Migrate data persistence to include disk storage or a lightweight database.
-
----
-
 ## 📚 Technologies Used
 
 * **Java 8** for all backend components (Master, Worker, Reducer, Manager).
