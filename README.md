@@ -127,7 +127,7 @@ All inter-node communication (Master ↔ Workers, Master ↔ Clients) is done ov
 
 ## 👥 Team
 
-* **Evangelos Viglis**
+* **Viglis Evangelos**
 * **Lampos Andreas**
 * **Maniatis Ioannis**
 
@@ -143,13 +143,3 @@ All inter-node communication (Master ↔ Workers, Master ↔ Clients) is done ov
 ---
 
 🎉 Thank you for exploring our project!
-
----
-
-If you’d like, I can also generate:
-
-* a shorter summary version for the GitHub header
-* badges (for Java, Android, etc.)
-* or a contribution / issues section.
-
-Let me know!
