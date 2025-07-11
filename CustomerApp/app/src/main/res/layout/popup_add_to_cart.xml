@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/popup_background"
+    android:minWidth="280dp">
+
+    <!-- Close button (X) -->
+    <ImageButton
+        android:id="@+id/btn_close_popup"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Close"
+        android:src="@drawable/ic_close" />
+
+    <!-- Product Name -->
+    <TextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Stock Quantity -->
+    <TextView
+        android:id="@+id/tv_stock_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock: 0"
+        android:layout_below="@id/tv_product_name"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Quantity Selector -->
+    <LinearLayout
+        android:id="@+id/quantity_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tv_stock_quantity"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_decrease"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/tv_quantity"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="8dp"
+            android:background="@drawable/quantity_bg" />
+
+        <Button
+            android:id="@+id/btn_increase"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="+" />
+    </LinearLayout>
+
+    <!-- Add to Cart Button -->
+    <Button
+        android:id="@+id/btn_add_to_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:layout_below="@id/quantity_selector"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>

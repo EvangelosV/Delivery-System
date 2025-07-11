@@ -1,0 +1,78 @@
+<!-- res/layout/store_item.xml -->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardBackgroundColor="#FFFFFF"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/store_item_border">
+
+        <!-- Add this ImageView for the logo -->
+        <ImageView
+            android:id="@+id/ivStoreLogo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="Store logo"
+            android:padding="4dp"/>
+
+        <!-- Update these TextViews to be positioned relative to the logo -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Store Title"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_toEndOf="@id/ivStoreLogo"
+            android:layout_marginStart="16dp"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/tvPriceRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$$"
+            android:textColor="#673AB7"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textColor="#673AB7"
+            android:textSize="14sp"
+            android:layout_toEndOf="@id/ivStoreLogo"
+            android:layout_marginStart="16dp"
+            android:layout_alignParentBottom="true" />
+
+        <TextView
+            android:id="@+id/tvStars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="★★★★☆"
+            android:textSize="14sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="#673AB7"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
